@@ -1,0 +1,39 @@
+#home {
+  background-image: url("/img/background.jpeg");
+  background-color: rgba(0, 0, 0, 0.65);
+  background-blend-mode: overlay;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  will-change: opacity, transform;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: #ffffff;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: #ffffff;
+  opacity: 0.5;
+}
