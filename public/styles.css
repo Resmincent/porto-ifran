@@ -59,5 +59,12 @@
 
 .carousel-indicators .indicator.active {
   opacity: 1;
-  background-color: #4f46e5; /* indigo-600 */
+  background-color: #4f46e5;
+}
+
+.garis-vertikal {
+  width: 2px;
+  height: 100px;
+  background-color: white;
+  margin: 10px auto;
 }
