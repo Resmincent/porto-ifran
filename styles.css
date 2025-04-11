@@ -37,3 +37,27 @@
   background: #ffffff;
   opacity: 0.5;
 }
+
+.project-carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+}
+
+.carousel-slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.carousel-indicators .indicator {
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .indicator.active {
+  opacity: 1;
+  background-color: #4f46e5; /* indigo-600 */
+}
