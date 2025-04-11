@@ -1,5 +1,5 @@
 #home {
-  background-image: url("/img/background.jpeg");
+  background-image: url("./img/background.jpeg");
   background-color: rgba(0, 0, 0, 0.65);
   background-blend-mode: overlay;
 }
